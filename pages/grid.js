@@ -43,18 +43,16 @@ export default function Home () {
         </div>
 
         <ul className="grid-container">
-          {movies.map((movie) => {
-            return (
-              <li
-                key={movie.title}
-              >
-                <img src={movie.img} />
-                <p>
-                  {movie.title}
-                </p>
-              </li>
-            )
-          })}
+          {movies.map((movie) => (
+            <li
+              key={movie.title}
+            >
+              <img src={movie.img} />
+              <div>
+                {movie.title}
+              </div>
+            </li>
+          ))}
         </ul>
 
       </main>

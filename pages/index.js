@@ -48,19 +48,17 @@ export default function Home () {
         </div>
 
         <ul className="flex-container">
-          {movies.map((movie) => {
-            return (
-              <li
-                key={movie.title}
-                className="flex-item"
-              >
-                <img src={movie.img} />
-                <p>
-                  {movie.title}
-                </p>
-              </li>
-            )
-          })}
+          {movies.map((movie) => (
+            <li
+              key={movie.title}
+              className="flex-item"
+            >
+              <img src={movie.img} />
+              <div>
+                {movie.title}
+              </div>
+            </li>
+          ))}
         </ul>
 
       </main>
