@@ -24,9 +24,9 @@ export default function Home () {
     <>
       <Head>
         <title>Flex vs Grid</title>
-        <meta name="description" content="Flex Example" />
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:image" content="http://ruraljuror.com/flexvsgrid.png" />
+        <meta name="description" content="Flex Example" />
+        <meta property="og:image" content="https://flexvsgrid.vercel.app/flexvsgrid.png" />
       </Head>
 
       <main>
