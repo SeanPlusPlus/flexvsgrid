@@ -4,13 +4,13 @@ import movies from '../data/movies'
 const css = `.flex-container {
   display: flex;
   flex-direction: column;
+  gap: 16px;
 }
 
 @media (min-width: 768px) {
   .flex-container {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 16px;
   }
 
   .flex-item {
