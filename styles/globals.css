@@ -1,0 +1,26 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  padding-bottom: 15px;
+}
+
+pre {
+  border: 1px solid #444;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
