@@ -9,7 +9,7 @@ const css = `.grid-container {
 
 @media screen and (min-width: 768px) {
   .grid-container {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 `

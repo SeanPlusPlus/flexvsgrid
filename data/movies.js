@@ -46,6 +46,18 @@ const movies = [
   {
     title: 'Turning Red',
     img: 'https://lumiere-a.akamaihd.net/v1/images/p_turningred_22797_1_c17f32af.jpeg'
+  },
+  {
+    title: 'Black Widow',
+    img: 'https://lumiere-a.akamaihd.net/v1/images/p_blackwidow_21043_v2_6d1b73b8.jpeg'
+  },
+  {
+    title: 'Shang-Chi and The Legend of The Ten Rings',
+    img: 'https://lumiere-a.akamaihd.net/v1/images/p_shangchiandthelegendofthetenringshomeentupdate_22055_7b62fa67.jpeg'
+  },
+  {
+    title: 'Strange World',
+    img: 'https://lumiere-a.akamaihd.net/v1/images/p_disney_strangeworld_1260_40682d4f.jpeg'
   }
 ]
 

@@ -14,7 +14,7 @@ const css = `.flex-container {
   }
 
   .flex-item {
-    flex: 1 0 calc(25% - 16px);
+    flex: 1 0 calc(20% - 16px);
   }
 }
 `
