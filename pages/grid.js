@@ -19,8 +19,9 @@ export default function Home () {
     <>
       <Head>
         <title>Flex vs Grid</title>
-        <meta name="description" content="Hello React" />
+        <meta name="description" content="Grid Example" />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:image" content="http://ruraljuror.com/flexvsgrid.png" />
       </Head>
 
       <main>
