@@ -47,7 +47,6 @@ export default function Home () {
             return (
               <li
                 key={movie.title}
-                className="grid-item"
               >
                 <img src={movie.img} />
                 <p>
