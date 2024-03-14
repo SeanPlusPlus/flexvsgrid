@@ -1,20 +1,15 @@
 import Head from 'next/head'
 import movies from '../data/movies'
 
-const css = `.flex-container {
-  display: flex;
-  flex-direction: column;
+const css = `.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
 }
 
-@media (min-width: 768px) {
-  .flex-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 16px;
-  }
-
-  .flex-item {
-    flex: 1 0 calc(25% - 16px);
+@media screen and (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 `
@@ -30,13 +25,13 @@ export default function Home () {
 
       <main>
         <div className="header">
-          <h3 className="active">
-            Flex
-          </h3>
           <h3>
-            <a href="/grid">
-              Grid
+            <a href="/">
+              Flex
             </a>
+          </h3>
+          <h3 className="active">
+            Grid
           </h3>
         </div>
 
@@ -46,12 +41,12 @@ export default function Home () {
           </pre>
         </div>
 
-        <ul className="flex-container">
+        <ul className="grid-container">
           {movies.map((movie) => {
             return (
               <li
                 key={movie.title}
-                className="flex-item"
+                className="grid-item"
               >
                 <img src={movie.img} />
                 <p>
